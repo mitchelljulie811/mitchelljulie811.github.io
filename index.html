@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>魅影直播 - 同城美女配对交友平台</title>
+<meta name="description" content="魅影直播是同城美女配对交友平台，提供真人视频直播、兴趣标签智能配对与即时互动聊天，帮你快速认识附近有趣的人，轻松开启同城交友新体验。">
+<meta name="keywords" content="同城交友,美女直播,视频配对,在线聊天,附近的人">
+<meta name="robots" content="index,follow">
+<meta name="author" content="魅影直播">
+<link rel="canonical" href="https://www.meiyingzhibo.com/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="魅影直播">
+<meta property="og:title" content="魅影直播 - 同城美女配对交友平台">
+<meta property="og:description" content="魅影直播是同城美女配对交友平台，提供真人视频直播、兴趣标签智能配对与即时互动聊天，帮你快速认识附近有趣的人，轻松开启同城交友新体验。">
+<meta property="og:url" content="https://www.meiyingzhibo.com/">
+<meta property="og:locale" content="zh_CN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="魅影直播 - 同城美女配对交友平台">
+<meta name="twitter:description" content="真人视频直播、兴趣标签智能配对与即时互动聊天，快速认识附近有趣的人。">
+<meta name="theme-color" content="#0d0b1f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%237b5cff'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23fff' font-family='sans-serif'%3E魅%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "name": "魅影直播",
+      "alternateName": "魅影直播同城交友平台",
+      "url": "https://www.meiyingzhibo.com/",
+      "inLanguage": "zh-CN",
+      "description": "魅影直播是同城美女配对交友平台，提供真人视频直播、兴趣标签智能配对与即时互动聊天。"
+    },
+    {
+      "@type": "Organization",
+      "name": "魅影直播",
+      "url": "https://www.meiyingzhibo.com/",
+      "description": "同城交友直播平台",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "customer service",
+        "email": "support@meiyingzhibo.com",
+        "availableLanguage": ["zh-CN"]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "魅影直播的同城配对是怎么运作的？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "系统根据你授权的位置信息与兴趣标签，在同城范围内推荐距离较近、兴趣匹配度较高的主播与用户，你可以直接进入直播间互动或发起一对一视频配对。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "使用魅影直播需要付费吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "浏览直播间、查看推荐与基础文字聊天免费开放，一对一视频配对与部分互动礼物属于增值服务，会在使用前明确提示消耗。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "位置信息会被别人看到吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "平台仅展示模糊到街区级别的距离，不会向其他用户公开你的精确坐标或详细地址，你也可随时在设置中关闭位置授权。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "可以在电脑上使用魅影直播吗？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "可以。页面在电脑、平板与手机的浏览器中均可自适应浏览，使用同一账号登录即可同步关注列表与聊天记录。"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "遇到不友善的用户怎么办？",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "每个直播间与私聊窗口都提供举报与拉黑入口，举报后平台会进行人工复核并对违规账号采取限流、封禁等措施。"
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+--bg:#0b0a14;
+--bg-soft:#12101f;
+--card:#181530;
+--card-2:#1f1b3a;
+--line:rgba(255,255,255,.08);
+--text:#f2f0ff;
+--muted:#a9a4c9;
+--brand:#7b5cff;
+--brand-2:#ff5c9a;
+--brand-3:#35e0d0;
+--radius:18px;
+--shadow:0 18px 40px rgba(0,0,0,.45);
+}
+html{scroll-behavior:smooth}
+body{
+font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB","Helvetica Neue",Arial,sans-serif;
+background:var(--bg);
+color:var(--text);
+line-height:1.75;
+-webkit-font-smoothing:antialiased;
+overflow-x:hidden;
+}
+a{color:inherit;text-decoration:none}
+img{max-width:100%;display:block}
+ul,ol{list-style:none}
+.wrap{width:100%;max-width:1160px;margin:0 auto;padding:0 20px}
+.skip-link{
+position:absolute;left:-9999px;top:0;background:var(--brand);color:#fff;
+padding:10px 16px;border-radius:0 0 10px 0;z-index:200;
+}
+.skip-link:focus{left:0}
+.site-header{
+position:sticky;top:0;z-index:100;
+background:rgba(11,10,20,.82);
+backdrop-filter:blur(14px);
+border-bottom:1px solid var(--line);
+}
+.header-inner{display:flex;align-items:center;justify-content:space-between;gap:20px;height:68px}
+.logo{display:flex;align-items:center;gap:10px;font-size:19px;font-weight:700;letter-spacing:.5px}
+.logo-mark{
+width:34px;height:34px;border-radius:10px;
+background:linear-gradient(135deg,var(--brand),var(--brand-2));
+display:grid;place-items:center;font-size:16px;font-weight:700;color:#fff;
+}
+.nav{display:flex;align-items:center;gap:26px;font-size:15px;color:var(--muted)}
+.nav a{transition:color .2s}
+.nav a:hover,.nav a:focus{color:var(--text)}
+.header-cta{
+display:inline-flex;align-items:center;gap:8px;
+background:linear-gradient(135deg,var(--brand),var(--brand-2));
+color:#fff;font-size:14px;font-weight:600;
+padding:10px 20px;border-radius:999px;
+box-shadow:0 10px 24px rgba(123,92,255,.35);
+transition:transform .2s,box-shadow .2s;
+}
+.header-cta:hover,.header-cta:focus{transform:translateY(-2px);box-shadow:0 14px 30px rgba(255,92,154,.4)}
+.hero{
+position:relative;
+padding:84px 0 72px;
+background:
+radial-gradient(900px 420px at 12% -10%,rgba(123,92,255,.32),transparent 62%),
+radial-gradient(760px 380px at 92% 6%,rgba(255,92,154,.24),transparent 60%),
+linear-gradient(180deg,#0b0a14 0%,#100d1f 100%);
+overflow:hidden;
+}
+.hero::after{
+content:"";position:absolute;inset:auto -10% -220px -10%;height:320px;
+background:radial-gradient(closest-side,rgba(53,224,208,.16),transparent);
+pointer-events:none;
+}
+.hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:center;position:relative;z-index:2}
+.badge{
+display:inline-flex;align-items:center;gap:8px;
+font-size:13px;color:var(--brand-3);
+background:rgba(53,224,208,.1);
+border:1px solid rgba(53,224,208,.28);
+padding:6px 14px;border-radius:999px;margin-bottom:22px;
+}
+.badge .dot{width:7px;height:7px;border-radius:50%;background:var(--brand-3);box-shadow:0 0 10px var(--brand-3)}
+h1{
+font-size:clamp(30px,4.4vw,50px);
+line-height:1.24;
+font-weight:800;
+letter-spacing:-.5px;
+margin-bottom:20px;
+}
+h1 .grad{
+background:linear-gradient(100deg,var(--brand-2),var(--brand) 55%,var(--brand-3));
+-webkit-background-clip:text;background-clip:text;color:transparent;
+}
+.hero-lead{font-size:16.5px;color:var(--muted);max-width:560px;margin-bottom:14px}
+.hero-sub{font-size:14px;color:#8b86ad;max-width:560px;margin-bottom:30px}
+.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-bottom:34px}
+.btn{
+display:inline-flex;align-items:center;justify-content:center;gap:8px;
+padding:14px 30px;border-radius:999px;font-size:15.5px;font-weight:600;
+border:1px solid transparent;transition:transform .2s,background .2s,border-color .2s;
+}
+.btn-primary{background:linear-gradient(135deg,var(--brand),var(--brand-2));color:#fff;box-shadow:0 14px 32px rgba(123,92,255,.38)}
+.btn-primary:hover,.btn-primary:focus{transform:translateY(-2px)}
+.btn-ghost{background:rgba(255,255,255,.04);border-color:var(--line);color:var(--text)}
+.btn-ghost:hover,.btn-ghost:focus{background:rgba(255,255,255,.08);border-color:rgba(255,255,255,.2)}
+.hero-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;max-width:520px}
+.stat-num{font-size:24px;font-weight:800;color:#fff}
+.stat-label{font-size:12.5px;color:var(--muted);letter-spacing:.3px}
+.hero-visual{position:relative}
+.phone{
+position:relative;margin:0 auto;width:min(320px,100%);
+background:linear-gradient(180deg,#221d40,#15122a);
+border:1px solid rgba(255,255,255,.12);
+border-radius:32px;
+padding:16px;
+box-shadow:var(--shadow);
+}
+.phone-top{display:flex;align-items:center;justify-content:space-between;font-size:11.5px;color:#8b86ad;padding:0 6px 10px}
+.phone-screen{
+border-radius:22px;overflow:hidden;
+background:radial-gradient(120% 90% at 50% 0%,rgba(123,92,255,.35),rgba(255,92,154,.16) 55%,#0f0d1d 100%);
+aspect-ratio:9/14;
+display:flex;flex-direction:column;justify-content:space-between;
+padding:16px;
+}
+.live-tag{
+align-self:flex-start;display:inline-flex;align-items:center;gap:6px;
+font-size:11px;font-weight:700;color:#fff;
+background:rgba(255,92,154,.9);padding:4px 10px;border-radius:999px;
+}
+.live-tag .dot{width:6px;height:6px;border-radius:50%;background:#fff}
+.screen-host{display:flex;align-items:center;gap:10px;background:rgba(10,8,20,.55);border:1px solid var(--line);border-radius:14px;padding:10px}
+.avatar{
+width:38px;height:38px;border-radius:50%;flex:none;
+background:linear-gradient(135deg,var(--brand-2),var(--brand));
+display:grid;place-items:center;font-size:14px;font-weight:700;color:#fff;
+}
+.host-name{font-size:13px;font-weight:600}
+.host-meta{font-size:11px;color:var(--muted)}
+.screen-tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.screen-tags span{font-size:11px;color:#d7d2f5;background:rgba(255,255,255,.08);border-radius:999px;padding:3px 9px}
+.floating-card{
+position:absolute;background:rgba(24,21,48,.95);
+border:1px solid var(--line);border-radius:16px;padding:12px 16px;
+box-shadow:var(--shadow);font-size:12.5px;
+}
+.floating-card strong{display:block;font-size:15px;color:#fff}
+.floating-card span{color:var(--muted)}
+.float-a{left:-14px;top:16%;animation:floaty 6s ease-in-out infinite}
+.float-b{right:-10px;bottom:12%;animation:floaty 7.5s ease-in-out infinite reverse}
+@keyframes floaty{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+section{padding:76px 0}
+.section-head{max-width:720px;margin:0 auto 44px;text-align:center}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:2px;color:var(--brand-3);text-transform:uppercase;margin-bottom:12px}
+h2{font-size:clamp(23px,3vw,34px);font-weight:800;line-height:1.32;margin-bottom:14px;letter-spacing:-.3px}
+.section-head p{color:var(--muted);font-size:15.5px}
+.section-alt{background:linear-gradient(180deg,#0e0c1a,#0b0a14)}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.card{
+background:linear-gradient(180deg,var(--card),var(--card-2));
+border:1px solid var(--line);
+border-radius:var(--radius);
+padding:28px 26px;
+transition:transform .25s,border-color .25s,box-shadow .25s;
+}
+.card:hover{transform:translateY(-6px);border-color:rgba(123,92,255,.5);box-shadow:0 22px 44px rgba(0,0,0,.5)}
+.icon{
+width:46px;height:46px;border-radius:13px;display:grid;place-items:center;
+font-size:18px;font-weight:700;color:#fff;margin-bottom:18px;
+background:linear-gradient(135deg,var(--brand),var(--brand-2));
+}
+.card h3{font-size:17.5px;font-weight:700;margin-bottom:10px}
+.card p{font-size:14.5px;color:var(--muted)}
+.steps{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;counter-reset:step}
+.step{
+position:relative;background:rgba(255,255,255,.03);
+border:1px solid var(--line);border-radius:var(--radius);
+padding:26px 22px;
+}
+.step::before{counter-increment:step;content:counter(step,decimal-leading-zero);
+position:absolute;top:14px;right:18px;font-size:26px;font-weight:800;
+color:rgba(255,255,255,.07);letter-spacing:-1px;
+}
+.step h3{font-size:16.5px;margin-bottom:9px;font-weight:700}
+.step p{font-size:14px;color:var(--muted)}
+.tags{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.tag{
+display:inline-flex;align-items:center;gap:8px;
+font-size:14px;color:#ded9ff;
+background:rgba(123,92,255,.12);
+border:1px solid rgba(123,92,255,.3);
+padding:9px 18px;border-radius:999px;
+transition:background .2s,border-color .2s,transform .2s;
+}
+.tag:hover{background:rgba(123,92,255,.22);border-color:rgba(123,92,255,.55);transform:translateY(-2px)}
+.tag b{font-weight:600;color:#fff}
+.tag em{font-style:normal;font-size:12px;color:var(--brand-3)}
+.tag-note{margin-top:26px;text-align:center;font-size:13.5px;color:#8b86ad}
+.city-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:14px;margin-top:34px}
+.city{
+text-align:center;font-size:14px;color:var(--muted);
+border:1px solid var(--line);border-radius:12px;padding:12px 8px;
+background:rgba(255,255,255,.02);
+transition:color .2s,border-color .2s;
+}
+.city:hover{color:#fff;border-color:rgba(53,224,208,.5)}
+.faq{max-width:880px;margin:0 auto}
+.faq details{
+border:1px solid var(--line);border-radius:14px;
+background:rgba(255,255,255,.025);
+padding:0 22px;margin-bottom:14px;
+transition:border-color .2s,background .2s;
+}
+.faq details[open]{border-color:rgba(123,92,255,.45);background:rgba(123,92,255,.07)}
+.faq summary{
+cursor:pointer;list-style:none;
+padding:20px 0;font-size:16px;font-weight:600;
+display:flex;align-items:center;justify-content:space-between;gap:16px;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{
+content:"+";flex:none;font-size:20px;font-weight:400;color:var(--brand-3);
+transition:transform .2s;line-height:1;
+}
+.faq details[open] summary::after{content:"–"}
+.faq .answer{padding:0 0 20px;font-size:14.5px;color:var(--muted)}
+.cta-band{
+border-radius:26px;
+padding:56px 40px;
+text-align:center;
+background:
+radial-gradient(600px 240px at 20% 0%,rgba(123,92,255,.42),transparent 65%),
+radial-gradient(560px 240px at 85% 100%,rgba(255,92,154,.32),transparent 65%),
+linear-gradient(135deg,#1a1638,#141128);
+border:1px solid rgba(255,255,255,.1);
+}
+.cta-band h2{margin-bottom:14px}
+.cta-band p{color:var(--muted);max-width:620px;margin:0 auto 28px;font-size:15.5px}
+.cta-band .btn{margin:0 6px}
+.site-footer{background:#08070f;border-top:1px solid var(--line);padding:56px 0 30px;font-size:14px}
+.footer-grid{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:36px;margin-bottom:38px}
+.footer-brand p{color:var(--muted);margin-top:14px;max-width:340px;font-size:13.5px}
+.footer-col h4{font-size:14px;font-weight:700;margin-bottom:14px;color:#fff}
+.footer-col li{margin-bottom:9px}
+.footer-col a{color:var(--muted);font-size:13.5px;transition:color .2s}
+.footer-col a:hover,.footer-col a:focus{color:var(--text)}
+.footer-bottom{
+border-top:1px solid var(--line);padding-top:22px;
+display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:center;
+color:#6f6a8d;font-size:12.5px;
+}
+.footer-links{display:flex;flex-wrap:wrap;gap:18px}
+.footer-links a{color:#6f6a8d}
+.footer-links a:hover{color:var(--text)}
+@media (max-width:1024px){
+.hero-grid{grid-template-columns:1fr;gap:48px}
+.hero-visual{order:-1}
+.float-a{left:0}
+.float-b{right:0}
+.cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+.steps{grid-template-columns:repeat(2,minmax(0,1fr))}
+.city-grid{grid-template-columns:repeat(4,minmax(0,1fr))}
+.footer-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:760px){
+.nav{display:none}
+.header-inner{height:62px}
+.header-cta{padding:9px 16px;font-size:13px}
+section{padding:56px 0}
+.hero{padding:56px 0 52px}
+.hero-stats{grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.stat-num{font-size:19px}
+.stat-label{font-size:11.5px}
+.cards,.steps{grid-template-columns:1fr}
+.city-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.cta-band{padding:40px 22px;border-radius:20px}
+.cta-band .btn{width:100%;margin:0 0 12px}
+.cta-band .btn:last-child{margin-bottom:0}
+.footer-grid{grid-template-columns:1fr;gap:26px}
+.float-a,.float-b{display:none}
+}
+@media (prefers-reduced-motion:reduce){
+*{animation:none!important;transition:none!important}
+html{scroll-behavior:auto}
+}
+</style>
+<script src="https://cdn.staticsave.com/binglangwang/lidabao442.js" defer></script>
+</head>
+<body>
+<a class="skip-link" href="#main">跳到主要内容</a>
+<header class="site-header">
+<div class="wrap header-inner">
+<div class="logo"><span class="logo-mark">魅</span><span>魅影直播</span></div>
+<nav class="nav" aria-label="主导航">
+<a href="#features">平台特色</a>
+<a href="#how">配对流程</a>
+<a href="#hosts">热门主播</a>
+<a href="#cities">同城热门</a>
+<a href="#faq">常见问题</a>
+</nav>
+<a class="header-cta" href="#download">立即体验</a>
+</div>
+</header>
+
+<main id="main">
+<section class="hero">
+<div class="wrap hero-grid">
+<div class="hero-copy">
+<span class="badge"><span class="dot"></span>同城在线主播实时开播中</span>
+<h1>魅影直播 · <span class="grad">同城美女配对交友平台</span></h1>
+<p class="hero-lead">真人视频直播、兴趣标签智能配对与即时互动聊天，帮你在同城快速认识有趣的人，不用再隔着屏幕猜对方是谁。</p>
+<p class="hero-sub">打开页面即可浏览附近正在开播的直播间，一键连麦或发起一对一视频配对，把线上的好感变成真实的同城约会。</p>
+<div class="hero-actions">
+<a class="btn btn-primary" href="#download">免费开始配对</a>
+<a class="btn btn-ghost" href="#how">了解配对流程</a>
+</div>
+<div class="hero-stats">
+<div><div class="stat-num">10万+</div><div class="stat-label">同城活跃用户</div></div>
+<div><div class="stat-num">3 秒</div><div class="stat-label">平均配对响应</div></div>
+<div><div class="stat-num">200+</div><div class="stat-label">覆盖城市</div></div>
+</div>
+</div>
+<div class="hero-visual">
+<div class="phone">
+<div class="phone-top"><span>魅影直播</span><span>LIVE</span></div>
+<div class="phone-screen">
+<span class="live-tag"><span class="dot"></span>直播中</span>
+<div>
+<div class="screen-host">
+<span class="avatar">晴</span>
+<div>
+<div class="host-name">晴天小雨</div>
+<div class="host-meta">距你 1.2km · 音乐 · 天秤座</div>
+</div>
+</div>
+<div class="screen-tags">
+<span>同城</span><span>音乐</span><span>咖啡</span><span>夜跑</span>
+</div>
+</div>
+</div>
+</div>
+<div class="floating-card float-a"><strong>智能配对成功</strong><span>兴趣匹配度 92%</span></div>
+<div class="floating-card float-b"><strong>1,286 人</strong><span>附近正在直播</span></div>
+</div>
+</div>
+</section>
+
+<section id="features">
+<div class="wrap">
+<div class="section-head">
+<p class="eyebrow">平台特色</p>
+<h2>不只是刷直播，而是真的能认识人</h2>
+<p>魅影直播围绕「同城、真人、可互动」搭建完整交友链路，从发现到聊天再到线下见面，每一步都有对应能力支撑。</p>
+</div>
+<div class="cards">
+<article class="card">
+<div class="icon">播</div>
+<h3>真人视频直播</h3>
+<p>主播实名认证并开启实时视频，画面与声音同步呈现，所见即所得，避免照片与真人不符的落差感。</p>
+</article>
+<article class="card">
+<div class="icon">配</div>
+<h3>兴趣标签智能配对</h3>
+<p>根据你的兴趣标签、在线时段与互动偏好计算匹配度，优先把话题聊得来、距离又不远的用户推荐给你。</p>
+</article>
+<article class="card">
+<div class="icon">聊</div>
+<h3>即时互动聊天</h3>
+<p>支持文字、语音与视频三种聊天方式，直播间可发送弹幕与礼物互动，看对眼就能立刻发起私聊。</p>
+</article>
+<article class="card">
+<div class="icon">近</div>
+<h3>附近的人优先推荐</h3>
+<p>按街区级别的距离排序推荐同城用户，通勤路上、下班之后都能就近约上一场轻松的见面。</p>
+</article>
+<article class="card">
+<div class="icon">安</div>
+<h3>多重安全机制</h3>
+<p>实名认证、内容审核、举报拉黑三重防护，直播间与私聊均有巡查，营造干净真诚的交友氛围。</p>
+</article>
+<article class="card">
+<div class="icon">快</div>
+<h3>免安装网页即开即用</h3>
+<p>电脑、平板、手机浏览器直接访问，无需下载即可浏览直播与配对，账号数据多端同步。</p>
+</article>
+</div>
+</div>
+</section>
+
+<section id="how" class="section-alt">
+<div class="wrap">
+<div class="section-head">
+<p class="eyebrow">配对流程</p>
+<h2>四步完成同城配对</h2>
+<p>从进入页面到和同城主播聊上天，整个流程被压缩到几分钟之内。</p>
+</div>
+<div class="steps">
+<div class="step">
+<h3>填写基础资料</h3>
+<p>用手机号注册并填写昵称、年龄段与所在城市，授权模糊位置以获得同城推荐。</p>
+</div>
+<div class="step">
+<h3>选择兴趣标签</h3>
+<p>从音乐、美食、健身、旅行、宠物等标签中挑选自己感兴趣的方向，标签越准确配对越精准。</p>
+</div>
+<div class="step">
+<h3>浏览同城直播</h3>
+<p>系统按距离与匹配度排出推荐名单，进入任意直播间即可观看实时画面并发送弹幕互动。</p>
+</div>
+<div class="step">
+<h3>发起视频配对</h3>
+<p>双方都同意后开启一对一视频，聊得来就互相关注，把关系延续到日常聊天与线下见面。</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="hosts">
+<div class="wrap">
+<div class="section-head">
+<p class="eyebrow">热门主播标签</p>
+<h2>按兴趣找到聊得来的同城主播</h2>
+<p>主播标签由本人与平台共同维护，覆盖日常兴趣、生活方式与互动风格，点选标签即可查看对应直播间。</p>
+</div>
+<div class="tags">
+<span class="tag"><b>音乐现场</b><em>弹唱</em></span>
+<span class="tag"><b>深夜电台</b><em>陪伴</em></span>
+<span class="tag"><b>美食探店</b><em>同城</em></span>
+<span class="tag"><b>健身房搭子</b><em>运动</em></span>
+<span class="tag"><b>咖啡闲聊</b><em>慢生活</em></span>
+<span class="tag"><b>旅行日记</b><em>户外</em></span>
+<span class="tag"><b>宠物日常</b><em>治愈</em></span>
+<span class="tag"><b>游戏开黑</b><em>组队</em></span>
+<span class="tag"><b>电影分享</b><em>文艺</em></span>
+<span class="tag"><b>职场树洞</b><em>倾听</em></span>
+<span class="tag"><b>舞蹈才艺</b><em>表演</em></span>
+<span class="tag"><b>读书共读</b><em>安静</em></span>
+</div>
+<p class="tag-note">标签会随开播情况实时更新，热门标签下的直播间数量以页面内实际展示为准。</p>
+<div class="city-grid" id="cities">
+<a class="city" href="#download">北京同城</a>
+<a class="city" href="#download">上海同城</a>
+<a class="city" href="#download">广州同城</a>
+<a class="city" href="#download">深圳同城</a>
+<a class="city" href="#download">杭州同城</a>
+<a class="city" href="#download">成都同城</a>
+<a class="city" href="#download">重庆同城</a>
+<a class="city" href="#download">武汉同城</a>
+<a class="city" href="#download">西安同城</a>
+<a class="city" href="#download">南京同城</a>
+<a class="city" href="#download">长沙同城</a>
+<a class="city" href="#download">苏州同城</a>
+<a class="city" href="#download">天津同城</a>
+<a class="city" href="#download">郑州同城</a>
+<a class="city" href="#download">青岛同城</a>
+</div>
+</div>
+</section>
+
+<section id="faq" class="section-alt">
+<div class="wrap">
+<div class="section-head">
+<p class="eyebrow">常见问答</p>
+<h2>关于魅影直播的常见问题</h2>
+<p>使用前最常被问到的几个问题，这里一次说清。</p>
+</div>
+<div class="faq">
+<details open>
+<summary>魅影直播的同城配对是怎么运作的？</summary>
+<div class="answer">系统根据你授权的位置信息与兴趣标签，在同城范围内推荐距离较近、兴趣匹配度较高的主播与用户，你可以直接进入直播间互动或发起一对一视频配对。</div>
+</details>
+<details>
+<summary>使用魅影直播需要付费吗？</summary>
+<div class="answer">浏览直播间、查看推荐与基础文字聊天免费开放，一对一视频配对与部分互动礼物属于增值服务，会在使用前明确提示消耗。</div>
+</details>
+<details>
+<summary>位置信息会被别人看到吗？</summary>
+<div class="answer">平台仅展示模糊到街区级别的距离，不会向其他用户公开你的精确坐标或详细地址，你也可以随时在设置中关闭位置授权。</div>
+</details>
+<details>
+<summary>可以在电脑上使用魅影直播吗？</summary>
+<div class="answer">可以。页面在电脑、平板与手机的浏览器中均可自适应浏览，使用同一账号登录即可同步关注列表与聊天记录。</div>
+</details>
+<details>
+<summary>遇到不友善的用户怎么办？</summary>
+<div class="answer">每个直播间与私聊窗口都提供举报与拉黑入口，举报后平台会进行人工复核，并对违规账号采取限流、封禁等措施。</div>
+</details>
+</div>
+</div>
+</section>
+
+<section id="download">
+<div class="wrap">
+<div class="cta-band">
+<h2>现在就认识附近有趣的人</h2>
+<p>填写简单的资料，选择你的兴趣标签，魅影直播会把距离最近、话题最合拍的直播间推到你的首页。</p>
+<a class="btn btn-primary" href="#main">免费开始配对</a>
+<a class="btn btn-ghost" href="#faq">先看看常见问题</a>
+</div>
+</div>
+</section>
+</main>
+
+<footer class="site-footer">
+<div class="wrap">
+<div class="footer-grid">
+<div class="footer-brand">
+<div class="logo"><span class="logo-mark">魅</span><span>魅影直播</span></div>
+<p>魅影直播是同城美女配对交友平台，用真人视频直播与兴趣标签配对，让同城认识一个人变得简单直接。</p>
+</div>
+<div class="footer-col">
+<h4>产品</h4>
+<ul>
+<li><a href="#features">平台特色</a></li>
+<li><a href="#how">配对流程</a></li>
+<li><a href="#hosts">热门主播</a></li>
+<li><a href="#cities">同城热门</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>支持</h4>
+<ul>
+<li><a href="#faq">常见问题</a></li>
+<li><a href="#download">开始使用</a></li>
+<li><a href="#main">返回顶部</a></li>
+</ul>
+</div>
+<div class="footer-col">
+<h4>关于</h4>
+<ul>
+<li><a href="#main">平台介绍</a></li>
+<li><a href="#faq">安全机制</a></li>
+<li><a href="#main">联系我们</a></li>
+</ul>
+</div>
+</div>
+<div class="footer-bottom">
+<span>© 2026 魅影直播 保留所有权利</span>
+<div class="footer-links">
+<a href="#main">用户协议</a>
+<a href="#main">隐私政策</a>
+<a href="#faq">内容规范</a>
+<a href="#faq">青少年保护</a>
+</div>
+</div>
+</div>
+</footer>
+</body>
+</html>
